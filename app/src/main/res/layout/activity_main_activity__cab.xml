@@ -1,0 +1,308 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity_Cab" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/principal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+             >
+
+            <TextView
+                android:id="@+id/nivel"
+                style="@style/style_Seccion"
+                android:text="@string/nivel" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tablero"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                >
+
+                <TableLayout
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dip"
+                    android:weightSum="9" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="5"
+                        android:layout_weight="2"
+                        
+                        >
+
+                        <ImageView
+                            android:id="@+id/ImageButton1"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton2"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton3"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton4"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton5"
+                            style="@style/casilla" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="5"
+                        android:layout_weight="2" >
+
+                        <ImageView
+                            android:id="@+id/ImageButton6"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton7"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton8"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton9"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton10"
+                            style="@style/casilla" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="5"
+                        android:layout_weight="2" >
+
+                        <ImageView
+                            android:id="@+id/ImageButton11"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton12"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton13"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton14"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton15"
+                            style="@style/casilla" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="5"
+                        android:layout_weight="2" >
+
+                        <ImageView
+                            android:id="@+id/ImageButton16"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton17"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton18"
+                            style="@style/casilla" />
+
+                        <ImageView
+                            android:id="@+id/ImageButton19"
+                            style="@style/casilla"
+                             />
+
+                        <ImageView
+                            android:id="@+id/ImageButton20"
+                            style="@style/casilla" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="5"
+                        android:layout_weight="1" >
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#B1E215"
+                android:orientation="vertical" >
+
+                <!-- Cantidad de movimiento del nivel -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="1" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".8"
+                        android:textSize="16dp"
+                        android:text="@string/movlevel" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        android:textSize="16dp"
+                        android:gravity="right"
+                        android:text="@string/vacio" />
+                </LinearLayout>
+                <!-- Cantidad de movimiento del total -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="1" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".8"
+                        android:textSize="16dp"
+                        android:text="@string/movtotal" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        android:gravity="right"
+                        android:textSize="16dp"
+                        android:text="@string/vacio" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="10dip"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/view"
+                        android:onClick="viewB" />
+
+                    <TextView
+                        android:id="@+id/viewtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/view" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/reset"
+                        android:onClick="resetB" />
+
+                    <TextView
+                        android:id="@+id/resettext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/reset" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/exit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/exit"
+                        android:onClick="exitB" />
+
+                    <TextView
+                        android:id="@+id/exittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/exit" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

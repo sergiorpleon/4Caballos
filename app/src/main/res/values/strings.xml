@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">4Caballos</string>
+    <string name="autor">Sergio R. Pérez León 2021</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit">Salir</string>
+    <string name="reset">Reiniciar</string>
+    <string name="view">Final</string>
+    <string name="marcas">Puntuaciones</string>
+    <string name="nivel">Level 1</string>
+    <string name="explicacion1">El objetivo del juego es llevar los caballos blancos hasta la posción de los caballos negros y los caballos negros hasta la posción de los caballos blancos.</string>
+    <string name="explicacion2">El movimiento de los caballos es el típico de los caballos del juego de ajedres (en forma de L).</string>
+    <string name="explicacion3">El caballo solo puede moverse hacia las casillas verde y gris, nunca hacia los espacios en blancos.</string>
+    <string name="explicacion4">Los caballos pueden brincarse los espacios en blanco, siempre y cuando caigan en una casilla verde o gris y el movimiento del caballo sea correxto.</string>
+    <string name="explicacion5">Si se presiona muestra la posición final, si se vuelve a presionar, regresa a la la posición donde te quedaste</string>
+    <string name="explicacion6">Botón para resetear el nivel al inicio, no resetea la cantidad de movimientos total</string>
+    <string name="explicacion7">Botón para salir del juego</string>
+    <string name="creador">Creado por Sergio Ramón Pérez León, Placetas, Villa Clara, Cuba.</string>
+    <string name="personalrecord">PERSONAL RECORD</string>
+    <string name="juego">Juego de los Caballos Invertidos o 4Caballos</string>
+    <string name="anonimo">ANÓNIMO</string>
+    <string name="ok">OK</string>
+    <string name="nombre">NOMBRE</string>
+    <string name="tiempo">TIEMPO</string>
+    <string name="movimiento">MOV</string>
+    <string name="movlevel">Movimientos:  </string>
+    <string name="movtotal">Movimientos totales:  </string>
+	<string name="opciones">OPCIONES</string>
+    <string name="iniciar">Reiniciar</string>
+    <string name="reiniciar">Reiniciar Todo</string>
+    <string name="ayuda">Ver ayuda</string>
+	<string name="continuar">Continuar</string>
+	<string name="vacio"></string>
+	<string name="uno">1</string>
+	<string name="dos">2</string>
+	<string name="tres">3</string>
+	<string name="cuatro">4</string>
+	<string name="cinco">5</string>
+	<string name="seis">6</string>
+	<string name="siete">7</string>
+	<string name="ocho">8</string>
+	<string name="nueve">9</string>
+	<string name="ingrese">Ingrese su nombre</string>
+		
+	<string name="ir">Ok</string>
+</resources>
